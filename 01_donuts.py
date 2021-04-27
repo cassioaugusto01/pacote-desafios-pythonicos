@@ -42,10 +42,7 @@ def test(f, in_, expected):
 if __name__ == '__main__':
     # Testes que verificam o resultado do seu código em alguns cenários.
     test(donuts, 4, 'Number of donuts: 4')
-<<<<<<< HEAD
     test(donuts, 7, 'Number of donuts: 7')
-=======
->>>>>>> ae90952cdaa7690a31e62f4715f0bd60600213b3
     test(donuts, 9, 'Number of donuts: 9')
     test(donuts, 10, 'Number of donuts: many')
     test(donuts, 99, 'Number of donuts: many')
