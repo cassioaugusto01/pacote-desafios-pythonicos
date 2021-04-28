@@ -15,7 +15,16 @@ onde todas as instancias de stra foram substituidas por strb.
 
 def fix_start(s):
     # +++ SUA SOLUÇÃO +++
-    return
+    return s[0] + s[1:].replace(s[0], '*')
+'''
+    if s == 'babble': 
+        return s.replace('b', '*').replace('*a', 'ba')
+    if s == 'aardvark':
+        return s.replace('a', '*').replace('**', 'a*')
+    if s == 'google':
+        return s.replace('g', '*').replace('*oo', 'goo')
+    if s == 'donut': 
+        '''
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---
