@@ -8,10 +8,16 @@ por 'good' e retorne a string resultante.
 
 Exemplo: 'The dinner is not that bad!' retorna 'The dinner is good!'
 """
+import re
 
 def not_bad(s):
     # +++ SUA SOLUÇÃO +++
-    return
+    posicaoNot = s.find('not')
+    posicaoBad = s.find('bad')
+    print(posicaoNot)
+    print(posicaoBad)
+    return s.replace(s[posicaoNot:posicaoBad+3], 'good') if posicaoBad > posicaoNot else s
+    
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---
